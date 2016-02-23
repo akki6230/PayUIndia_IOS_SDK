@@ -21,7 +21,7 @@
 
 -(IBAction)openPayU:(id)sender
 {
-    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main_iPhone"
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main"
                                                              bundle: nil];
     PayUViewController *vc;// =[[UIViewController alloc]init];
     
